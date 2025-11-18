@@ -21,14 +21,12 @@ filtros = {
 df_partidos = pd.read_csv('data/libertadores-results-ds.csv', encoding='utf-8')
 df_partidos.columns = [c.strip() for c in df_partidos.columns]
 df_partidos.rename(columns={'AwayScore': 'Away Score', 'HomeScore': 'Home Score'}, inplace=True)
-df_partidos.rename(columns={'AwayScore': 'Away Score', 'HomeScore': 'Home Score'}, inplace=True)
 
 df_partidos['Home Club'] = df_partidos['Home Club'].astype(str).str.strip().replace('', np.nan)
 df_partidos['Away Club'] = df_partidos['Away Club'].astype(str).str.strip().replace('', np.nan)
 df_partidos['Home Score'] = pd.to_numeric(df_partidos['Home Score'], errors='coerce')
 df_partidos['Away Score'] = pd.to_numeric(df_partidos['Away Score'], errors='coerce')
 
-# Medias globales
 # Medias globales
 media_goles_local_global = df_partidos['Home Score'].mean()
 media_goles_visitante_global = df_partidos['Away Score'].mean()
@@ -90,13 +88,11 @@ for equipo in equipos:
     gol_an_v = df_partidos.loc[df_partidos['Away Club'] == equipo, 'Away Score'].dropna().values
     gol_rec_v = df_partidos.loc[df_partidos['Away Club'] == equipo, 'Home Score'].dropna().values
 
-    # Series (si no hay datos, NaN para que el boxplot ignore)
     datos_por_metrica[metricas_nombres[0]].append(gol_an_l if len(gol_an_l) > 0 else np.array([np.nan]))
     datos_por_metrica[metricas_nombres[1]].append(gol_rec_l if len(gol_rec_l) > 0 else np.array([np.nan]))
     datos_por_metrica[metricas_nombres[2]].append(gol_an_v if len(gol_an_v) > 0 else np.array([np.nan]))
     datos_por_metrica[metricas_nombres[3]].append(gol_rec_v if len(gol_rec_v) > 0 else np.array([np.nan]))
 
-    # Conteo de partidos (local + visita) para filtros
     partidos_por_equipo[equipo] = len(gol_an_l) + len(gol_an_v)
 
 # Colores para las 4 métricas
@@ -106,27 +102,26 @@ colores = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
 # Utilidades: selección y orden de equipos
 # =========================
 def obtener_lista_equipos(equipos_idx, filtros, df_fuerzas):
-    # Selección manual (si se especifica)
     if filtros.get("seleccion_equipos"):
         equipos_seleccion = [e for e in filtros["seleccion_equipos"] if e in equipos_idx]
     else:
         equipos_seleccion = list(equipos_idx)
 
-    # Filtro por mínimo de partidos
     min_part = max(0, int(filtros.get("min_partidos", 0)))
     equipos_filtrados = [e for e in equipos_seleccion if partidos_por_equipo.get(e, 0) >= min_part]
 
-    # Si el filtro deja vacío, desactivarlo para no “quedarte sin gráficos”
     if len(equipos_filtrados) == 0:
-        equipos_filtrados = equipos_seleccion  # sin filtro
+        equipos_filtrados = equipos_seleccion
 
-    # Orden opcional por una columna de fuerzas
     orden_col = filtros.get("orden_por")
     if orden_col in df_fuerzas.columns:
         equipos_filtrados = sorted(equipos_filtrados, key=lambda e: df_fuerzas.loc[e, orden_col], reverse=True)
 
     return equipos_filtrados
 
+# =========================
+# Funciones de graficación
+# =========================
 # =========================
 # Funciones de graficación
 # =========================
@@ -148,7 +143,6 @@ def plot_boxplots_chunked(equipos_lista, filtros):
 
         # Construir los datos para el chunk con posiciones alineadas
         for j, met in enumerate(metricas_nombres):
-            # Mapear del índice maestro al índice de equipos_chunk
             series_chunk = [datos_por_metrica[met][equipos.get_loc(e)] for e in equipos_chunk]
             posiciones = indices + (j - 1.5) * ancho
             bp = ax.boxplot(series_chunk,
@@ -204,6 +198,33 @@ def plot_forces_chunked(df_fuerzas, equipos_lista, filtros):
 # =========================
 # Ejecutar según filtros
 # =========================
+
+# Primero el boxplot global
+goles_anotados = pd.concat([
+    df_partidos['Home Score'].dropna(),
+    df_partidos['Away Score'].dropna()
+])
+goles_recibidos = pd.concat([
+    df_partidos['Away Score'].dropna(),
+    df_partidos['Home Score'].dropna()
+])
+
+fig, ax = plt.subplots(figsize=(6, 6))
+bp = ax.boxplot([goles_anotados, goles_recibidos],
+                labels=['Goles anotados (global)', 'Goles recibidos (global)'],
+                patch_artist=True,
+                showfliers=False)
+
+colores_globales = ['#1f77b4', '#d62728']
+for patch, color in zip(bp['boxes'], colores_globales):
+    patch.set(facecolor=color, alpha=0.6)
+
+ax.set_title('Distribución global de goles anotados vs recibidos')
+ax.set_ylabel('Goles')
+plt.tight_layout()
+plt.show()
+
+# Luego los gráficos por equipo
 if filtros.get("mostrar_boxplots", True):
     plot_boxplots_chunked(equipos_lista=equipos, filtros=filtros)
 

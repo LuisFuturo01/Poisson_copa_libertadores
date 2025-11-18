@@ -21,12 +21,14 @@ filtros = {
 df_partidos = pd.read_csv('data/libertadores-results-ds.csv', encoding='utf-8')
 df_partidos.columns = [c.strip() for c in df_partidos.columns]
 df_partidos.rename(columns={'AwayScore': 'Away Score', 'HomeScore': 'Home Score'}, inplace=True)
+df_partidos.rename(columns={'AwayScore': 'Away Score', 'HomeScore': 'Home Score'}, inplace=True)
 
 df_partidos['Home Club'] = df_partidos['Home Club'].astype(str).str.strip().replace('', np.nan)
 df_partidos['Away Club'] = df_partidos['Away Club'].astype(str).str.strip().replace('', np.nan)
 df_partidos['Home Score'] = pd.to_numeric(df_partidos['Home Score'], errors='coerce')
 df_partidos['Away Score'] = pd.to_numeric(df_partidos['Away Score'], errors='coerce')
 
+# Medias globales
 # Medias globales
 media_goles_local_global = df_partidos['Home Score'].mean()
 media_goles_visitante_global = df_partidos['Away Score'].mean()

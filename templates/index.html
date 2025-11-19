@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONMEBOL Predictor Pro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="https://www.futbox.com/img/v1/fbb/ba4/10c/05d/e81f4697a0cb809917c9_zoom.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+    <div class="ambient-bg"></div>
+
+    <div class="layout-container">
+        
+        <main class="dashboard-card">
+            
+            <header class="main-header">
+                <div class="header-top">
+                    <span class="status-badge"><i class="fas fa-circle fa-xs text-success"></i> SISTEMA ONLINE</span>
+                </div>
+                <div class="logo-area">
+                    <i class="fas fa-trophy trophy-icon"></i>
+                    <div>
+                        <h1>CONMEBOL <span class="highlight">LIBERTADORES</span></h1>
+                        <p class="subtitle">SISTEMA DE PREDICCIÓN ESTADÍSTICA</p>
+                    </div>
+                </div>
+            </header>
+
+            <div class="match-info-bar">
+                <div class="info-item"><i class="far fa-calendar-alt"></i><span>2012-2023</span></div>
+                <div class="info-item"><i class="fas fa-map-marker-alt"></i><span>ESTADIO LOCAL</span></div>
+            </div>
+
+            <div class="divider-glow"></div>
+
+            <div class="matchup-grid">
+                
+                <div class="team-panel panel-left">
+                    <div class="panel-header">LOCAL TEAM</div>
+                    
+                    <div class="logo-container">
+                        <div id="spinnerLocal" class="img-loader hidden"></div>
+                        <img id="imgLocal" src="/static/img/shield.png" alt="Local">
+                    </div>
+                    
+                    <div class="custom-select" id="wrapLocal">
+                        <div class="input-wrapper">
+                            <i class="fas fa-search search-icon"></i>
+                            <input type="text" id="inputLocal" class="search-input" placeholder="Buscar equipo..." autocomplete="off">
+                            <i class="fas fa-chevron-down arrow-icon"></i>
+                        </div>
+                        <ul id="listLocal" class="options-list hidden"></ul>
+                    </div>
+
+                </div>
+
+                <div class="vs-column">
+                    <div class="vs-circle">VS</div>
+                </div>
+
+                <div class="team-panel panel-right">
+                    <div class="panel-header">AWAY TEAM</div>
+                    
+                    <div class="logo-container">
+                        <div id="spinnerVisitante" class="img-loader hidden"></div>
+                        <img id="imgVisitante" src="/static/img/shield.png" alt="Visitante">
+                    </div>
+                    
+                    <div class="custom-select" id="wrapVisitante">
+                        <div class="input-wrapper">
+                            <i class="fas fa-search search-icon"></i>
+                            <input type="text" id="inputVisitante" class="search-input" placeholder="Buscar equipo..." autocomplete="off">
+                            <i class="fas fa-chevron-down arrow-icon"></i>
+                        </div>
+                        <ul id="listVisitante" class="options-list hidden"></ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="action-section">
+                <button id="btnPredecir" class="btn-mega">
+                    INICIAR SIMULACIÓN <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div id="loading" class="system-loader hidden">
+                <div class="bar-loader"></div>
+                <p>PROCESANDO DATOS HISTÓRICOS...</p>
+            </div>
+
+            <div id="resultado" class="results-dashboard hidden">
+                <div class="results-title">
+                    <i class="fas fa-chart-pie"></i> PROYECCIÓN DE RESULTADO
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-label" id="resLocalName">LOCAL</span>
+                        <span class="stat-value text-gold" id="probLocalVal">0%</span>
+                        <div class="mini-bar"><div id="barLocal" class="fill-gold"></div></div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label">EMPATE</span>
+                        <span class="stat-value text-gray" id="probEmpateVal">0%</span>
+                        <div class="mini-bar"><div id="barEmpate" class="fill-gray"></div></div>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-label" id="resVisitanteName">VISITANTE</span>
+                        <span class="stat-value text-white" id="probVisitanteVal">0%</span>
+                        <div class="mini-bar"><div id="barVisitante" class="fill-white"></div></div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+       
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>

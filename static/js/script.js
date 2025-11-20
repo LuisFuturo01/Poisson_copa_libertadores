@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Elementos Inputs (Ya no son Selects)
     const inputLocal = document.getElementById("inputLocal");
     const listLocal = document.getElementById("listLocal");
     const wrapLocal = document.getElementById("wrapLocal");
@@ -10,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const btn = document.getElementById("btnPredecir");
 
-    // Imágenes y UI
     const imgLocal = document.getElementById("imgLocal");
     const spinnerLocal = document.getElementById("spinnerLocal");
     const imgVisitante = document.getElementById("imgVisitante");
@@ -29,10 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
         barVisitante: document.getElementById("barVisitante"),
     };
 
-    // --- UTILS ---
     const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-    // --- LOGOS ---
     async function fetchLogoWithDelay(teamName, imgElement, spinnerElement) {
         if (!teamName) return;
         const fallback = '/static/img/shield.png';
@@ -66,10 +62,8 @@ document.addEventListener('DOMContentLoaded', () => {
         imgElement.classList.remove('hidden');
     }
 
-    // --- LÓGICA DE DROPDOWN PERSONALIZADO ---
     function setupCustomSelect(input, list, wrapper, allTeams, onSelect) {
         
-        // 1. Renderizar lista completa
         const renderList = (filter = "") => {
             list.innerHTML = "";
             const filtered = allTeams.filter(t => t.toLowerCase().includes(filter.toLowerCase()));
@@ -88,16 +82,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         input.value = team;
                         list.classList.add("hidden");
                         wrapper.classList.remove("active");
-                        onSelect(team); // Callback para cargar logo
+                        onSelect(team);
                     });
                     list.appendChild(li);
                 });
             }
         };
 
-        // 2. Eventos del Input
         input.addEventListener("focus", () => {
-            renderList(input.value); // Mostrar lista filtrada por lo que haya
+            renderList(input.value); 
             list.classList.remove("hidden");
             wrapper.classList.add("active");
         });
@@ -107,7 +100,6 @@ document.addEventListener('DOMContentLoaded', () => {
             list.classList.remove("hidden");
         });
 
-        // 3. Cerrar al hacer click fuera
         document.addEventListener("click", (e) => {
             if (!wrapper.contains(e.target)) {
                 list.classList.add("hidden");
@@ -115,11 +107,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        return renderList; // Retornamos para usarlo si necesitamos resetear
+        return renderList; 
     }
 
 
-    // --- CARGA INICIAL ---
     async function cargarEquipos() {
         try {
             const res = await fetch('/equipos');
@@ -128,12 +119,10 @@ document.addEventListener('DOMContentLoaded', () => {
             if (datos.error) throw new Error(datos.error);
             const equipos = datos.equipos;
 
-            // --- CONFIGURACIÓN DE DEFAULTS ---
-            // Buscamos coincidencias aproximadas para "The Strongest" y "Bolivar"
+            
             const defaultLocal = equipos.find(e => e.toLowerCase().includes("strongest")) || equipos[0];
             const defaultVisitante = equipos.find(e => e.toLowerCase().includes("bolivar") || e.toLowerCase().includes("bolívar")) || equipos[1];
 
-            // --- INICIALIZAR DROPDOWNS ---
             setupCustomSelect(inputLocal, listLocal, wrapLocal, equipos, (team) => {
                 ui.localName.textContent = team;
                 fetchLogoWithDelay(team, imgLocal, spinnerLocal);
@@ -144,7 +133,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 fetchLogoWithDelay(team, imgVisitante, spinnerVisitante);
             });
 
-            // --- SETEAR VALORES POR DEFECTO ---
             if (defaultLocal) {
                 inputLocal.value = defaultLocal;
                 ui.localName.textContent = defaultLocal;
@@ -163,7 +151,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- BOTÓN PREDECIR ---
     btn.addEventListener("click", async () => {
         const local = inputLocal.value;
         const visitante = inputVisitante.value;
@@ -179,7 +166,6 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.style.opacity = "0.5";
         btn.innerHTML = "CALCULANDO...";
 
-        // Resetear barras
         ui.barLocal.style.width = "0%";
         ui.barEmpate.style.width = "0%";
         ui.barVisitante.style.width = "0%";

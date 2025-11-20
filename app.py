@@ -1,7 +1,6 @@
 from flask import Flask, render_template, jsonify, request
 from prediccion import obtener_lista_equipos, obtener_prediccion
 
-# Flask busca templates en 'templates' y estáticos en 'static' por defecto
 app = Flask(__name__)
 
 @app.route('/')

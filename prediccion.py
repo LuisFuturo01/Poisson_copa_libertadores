@@ -3,19 +3,15 @@ from scipy.stats import poisson
 import numpy as np
 import unicodedata
 
-# --- CARGA DE DATOS E INICIALIZACIÓN (Se ejecuta una sola vez al importar) ---
 try:
     df_partidos = pd.read_csv('data/libertadores-results-ds.csv')
 except FileNotFoundError:
-    # Fallback para evitar que rompa si no encuentra el archivo al inicio
     print("Error: No se encontró 'data/libertadores-results-ds.csv'")
     df_partidos = pd.DataFrame(columns=['Home Club', 'Away Club', 'Home Score', 'AwayScore'])
 
-# Medias Globales
 mu_local_anotados = df_partidos['Home Score'].mean()
 mu_visitante_anotados = df_partidos['AwayScore'].mean()
 
-# Agrupaciones
 gal = df_partidos.groupby('Home Club')['Home Score'].mean().rename('GAL')
 grl = df_partidos.groupby('Home Club')['AwayScore'].mean().rename('GRL')
 gav = df_partidos.groupby('Away Club')['AwayScore'].mean().rename('GAV')

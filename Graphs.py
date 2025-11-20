@@ -259,18 +259,15 @@ goles_recibidos = pd.concat([
     df_partidos['Home Score'].dropna()
 ])
 
-# NUEVA GRÁFICA: Probabilidades de victoria por equipo
-# Calcular victorias como local
+
 home_victorias = (df_partidos['Home Score'] > df_partidos['Away Score']).astype(int)
 home_partidos = df_partidos.groupby('Home Club').size()
 home_prob_victoria = df_partidos.groupby('Home Club')[['Home Score', 'Away Score']].apply(lambda x: (x['Home Score'] > x['Away Score']).sum() / len(x)).reindex(equipos)
 
-# Calcular victorias como visitante
 away_victorias = (df_partidos['Away Score'] > df_partidos['Home Score']).astype(int)
 away_partidos = df_partidos.groupby('Away Club').size()
 away_prob_victoria = df_partidos.groupby('Away Club')[['Home Score', 'Away Score']].apply(lambda x: (x['Away Score'] > x['Home Score']).sum() / len(x)).reindex(equipos)
 
-# Preparar datos para boxplot (eliminar NaN)
 prob_local = home_prob_victoria.dropna().values
 prob_visita = away_prob_victoria.dropna().values
 
@@ -287,6 +284,38 @@ for patch, color in zip(bp['boxes'], colores_globales):
 ax.set_title('Distribución de probabilidades de victoria por equipo')
 ax.set_ylabel('Probabilidad')
 ax.set_ylim([0, 1])
+plt.tight_layout()
+plt.show()
+
+
+
+datos_goles = [
+    df_4_promedios['GOL_AN_L'].dropna().values,
+    df_4_promedios['GOL_REC_L'].dropna().values,
+    df_4_promedios['GOL_AN_V'].dropna().values,
+    df_4_promedios['GOL_REC_V'].dropna().values
+]
+
+labels_goles = [
+    'Goles Anotados (Local)',
+    'Goles Recibidos (Local)',
+    'Goles Anotados (Visita)',
+    'Goles Recibidos (Visita)'
+]
+
+fig, ax = plt.subplots(figsize=(8, 6))
+bp = ax.boxplot(datos_goles,
+                tick_labels=labels_goles,
+                patch_artist=True,
+                showfliers=False)
+
+colores_goles = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
+for patch, color in zip(bp['boxes'], colores_goles):
+    patch.set(facecolor=color, alpha=0.6)
+
+ax.set_title('Distribución de Promedios de Goles por Equipo')
+ax.set_ylabel('Promedio de Goles')
+ax.grid(True, linestyle='--', alpha=0.7)
 plt.tight_layout()
 plt.show()
 

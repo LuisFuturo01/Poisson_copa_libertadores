@@ -3,21 +3,21 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 
-# =========================
-# Configuración de filtros
-# =========================
+
+
+
 filtros = {
-    "chunk_size": 10,            # Número de equipos por figura
-    "min_partidos": 0,           # Mínimo de partidos (local+visita) para mostrar un equipo (0 = sin filtro)
-    "mostrar_boxplots": True,    # Mostrar gráficos de boxplots
-    "mostrar_fuerzas": True,     # Mostrar gráficos de fuerzas
-    "orden_por": None,           # Opcional: ordenar equipos por una columna ('fuerza_ataque_local', etc.) o None
-    "seleccion_equipos": None    # Opcional: lista de equipos a mostrar (None = todos). Ej: ["Boca Juniors", "River Plate"]
+    "chunk_size": 10,            
+    "min_partidos": 0,           
+    "mostrar_boxplots": True,    
+    "mostrar_fuerzas": True,     
+    "orden_por": None,           
+    "seleccion_equipos": None    
 }
 
-# =========================
-# Carga y limpieza de datos
-# =========================
+
+
+
 df_partidos = pd.read_csv('data/libertadores-results-ds.csv', encoding='utf-8')
 df_partidos.columns = [c.strip() for c in df_partidos.columns]
 df_partidos.rename(columns={'AwayScore': 'Away Score', 'HomeScore': 'Home Score'}, inplace=True)
@@ -27,18 +27,18 @@ df_partidos['Away Club'] = df_partidos['Away Club'].astype(str).str.strip().repl
 df_partidos['Home Score'] = pd.to_numeric(df_partidos['Home Score'], errors='coerce')
 df_partidos['Away Score'] = pd.to_numeric(df_partidos['Away Score'], errors='coerce')
 
-# Medias globales
+
 media_goles_local_global = df_partidos['Home Score'].mean()
 media_goles_visitante_global = df_partidos['Away Score'].mean()
 
-# Lista de equipos únicos (index maestro)
+
 equipos = pd.Index(df_partidos['Home Club'].dropna().unique()).union(
     pd.Index(df_partidos['Away Club'].dropna().unique())
 ).sort_values()
 
-# =========================
-# Promedios y fuerzas
-# =========================
+
+
+
 prom_goles_local_anotados = df_partidos.groupby('Home Club')['Home Score'].mean().rename('GOL_AN_L').reindex(equipos)
 prom_goles_local_recibidos = df_partidos.groupby('Home Club')['Away Score'].mean().rename('GOL_REC_L').reindex(equipos)
 prom_goles_visitante_anotados = df_partidos.groupby('Away Club')['Away Score'].mean().rename('GOL_AN_V').reindex(equipos)
@@ -52,7 +52,7 @@ df_4_promedios = pd.concat([
 ], axis=1)
 df_4_promedios.index.name = 'Equipo'
 
-# Completar NaN solo para calcular fuerzas
+
 df_promedios_completos = df_4_promedios.fillna({
     'GOL_AN_L': media_goles_local_global,
     'GOL_AN_V': media_goles_visitante_global,
@@ -65,13 +65,13 @@ df_promedios_completos['fuerza_ataque_visita'] = df_promedios_completos['GOL_AN_
 df_promedios_completos['fuerza_defensa_local'] = df_promedios_completos['GOL_REC_L'] / media_goles_visitante_global
 df_promedios_completos['fuerza_defensa_visita'] = df_promedios_completos['GOL_REC_V'] / media_goles_local_global
 
-# Forces dataframe con índice maestro y NaN a 0 solo para graficar
+
 cols_fuerzas = ['fuerza_ataque_local', 'fuerza_ataque_visita', 'fuerza_defensa_local', 'fuerza_defensa_visita']
 df_fuerzas = df_promedios_completos[cols_fuerzas].reindex(equipos).fillna(0)
 
-# =========================
-# Preparar series por equipo (para boxplots)
-# =========================
+
+
+
 metricas_nombres = [
     'GOL_AN_L (local anotado)',
     'GOL_REC_L (local recibido)',
@@ -95,12 +95,12 @@ for equipo in equipos:
 
     partidos_por_equipo[equipo] = len(gol_an_l) + len(gol_an_v)
 
-# Colores para las 4 métricas
+
 colores = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
 
-# =========================
-# Utilidades: selección y orden de equipos
-# =========================
+
+
+
 def obtener_lista_equipos(equipos_idx, filtros, df_fuerzas):
     if filtros.get("seleccion_equipos"):
         equipos_seleccion = [e for e in filtros["seleccion_equipos"] if e in equipos_idx]
@@ -119,12 +119,12 @@ def obtener_lista_equipos(equipos_idx, filtros, df_fuerzas):
 
     return equipos_filtrados
 
-# =========================
-# Funciones de graficación
-# =========================
-# =========================
-# Funciones de graficación
-# =========================
+
+
+
+
+
+
 def plot_boxplots_chunked(equipos_lista, filtros):
     equipos_filtrados = obtener_lista_equipos(equipos_lista, filtros, df_fuerzas)
     n_equipos = len(equipos_filtrados)
@@ -141,7 +141,7 @@ def plot_boxplots_chunked(equipos_lista, filtros):
         fig, ax = plt.subplots(figsize=(max(10, len(equipos_chunk) * 0.9), 6))
         ancho = 0.15
 
-        # Construir los datos para el chunk con posiciones alineadas
+        
         for j, met in enumerate(metricas_nombres):
             series_chunk = [datos_por_metrica[met][equipos.get_loc(e)] for e in equipos_chunk]
             posiciones = indices + (j - 1.5) * ancho
@@ -195,11 +195,11 @@ def plot_forces_chunked(df_fuerzas, equipos_lista, filtros):
         plt.tight_layout()
         plt.show()
 
-# =========================
-# Ejecutar según filtros
-# =========================
 
-# Primero el boxplot global
+
+
+
+
 goles_anotados = pd.concat([
     df_partidos['Home Score'].dropna(),
     df_partidos['Away Score'].dropna()
@@ -224,7 +224,7 @@ ax.set_ylabel('Goles')
 plt.tight_layout()
 plt.show()
 
-# Luego los gráficos por equipo
+
 if filtros.get("mostrar_boxplots", True):
     plot_boxplots_chunked(equipos_lista=equipos, filtros=filtros)
 

@@ -1953,3 +1953,782 @@ Edition,Round,Date,Home Club,Away Club,Home Score,AwayScore
 2013,Qualifying Match,24/01/2013,Defensor Sporting,Olimpia,0,0
 2013,Qualifying Match,23/01/2013,Tigre,Deportivo Anzoátegui,2,1
 2013,Qualifying Match,23/01/2013,León,Deportes Iquique,1,1
+2000,Group A,16/02/2000,Alianza Lima,Atlético Paranaense,0,3
+2000,Group A,23/02/2000,Emelec,Nacional,0,2
+2000,Group A,29/02/2000,Alianza Lima,Emelec,2,1
+2000,Group A,08/03/2000,Nacional,Alianza Lima,2,0
+2000,Group A,09/03/2000,Atlético Paranaense,Emelec,1,0
+2000,Group A,15/03/2000,Nacional,Atlético Paranaense,1,3
+2000,Group A,22/03/2000,Nacional,Emelec,1,0
+2000,Group A,22/03/2000,Atlético Paranaense,Alianza Lima,2,1
+2000,Group A,04/04/2000,Emelec,Atlético Paranaense,0,0
+2000,Group A,05/04/2000,Alianza Lima,Nacional,2,2
+2000,Group A,12/04/2000,Emelec,Alianza Lima,2,2
+2000,Group A,12/04/2000,Atlético Paranaense,Nacional,2,0
+2000,Group B,07/03/2000,Boca Juniors,Peñarol,3,1
+2000,Group B,09/03/2000,Blooming,Universidad Católica (Chile),1,0
+2000,Group B,15/03/2000,Blooming,Peñarol,3,3
+2000,Group B,16/03/2000,Universidad Católica (Chile),Boca Juniors,0,0
+2000,Group B,21/03/2000,Blooming,Boca Juniors,1,6
+2000,Group B,23/03/2000,Peñarol,Universidad Católica (Chile),5,1
+2000,Group B,05/04/2000,Peñarol,Boca Juniors,0,0
+2000,Group B,06/04/2000,Universidad Católica (Chile),Blooming,4,0
+2000,Group B,11/04/2000,Peñarol,Blooming,2,0
+2000,Group B,12/04/2000,Boca Juniors,Universidad Católica (Chile),2,0
+2000,Group B,18/04/2000,Boca Juniors,Blooming,1,0
+2000,Group B,19/04/2000,Universidad Católica (Chile),Peñarol,1,0
+2000,Group C,24/02/2000,Olimpia,Corinthians,2,2
+2000,Group C,25/02/2000,América (México),LDU de Quito,1,0
+2000,Group C,02/03/2000,LDU de Quito,Olimpia,0,1
+2000,Group C,03/03/2000,Corinthians,América (México),2,1
+2000,Group C,08/03/2000,LDU de Quito,Corinthians,0,2
+2000,Group C,09/03/2000,América (México),Olimpia,8,2
+2000,Group C,14/03/2000,Olimpia,LDU de Quito,1,1
+2000,Group C,15/03/2000,América (México),Corinthians,2,0
+2000,Group C,06/04/2000,Corinthians,LDU de Quito,6,0
+2000,Group C,07/04/2000,Olimpia,América (México),3,1
+2000,Group C,12/04/2000,LDU de Quito,América (México),2,2
+2000,Group C,12/04/2000,Corinthians,Olimpia,5,4
+2000,Group D,24/02/2000,Atlas,River Plate,1,1
+2000,Group D,25/02/2000,Atlético Nacional,Universidad de Chile,4,1
+2000,Group D,01/03/2000,Universidad de Chile,Atlas,3,2
+2000,Group D,02/03/2000,River Plate,Atlético Nacional,2,3
+2000,Group D,07/03/2000,Universidad de Chile,River Plate,1,1
+2000,Group D,08/03/2000,Atlas,Atlético Nacional,5,1
+2000,Group D,16/03/2000,Atlas,Universidad de Chile,0,0
+2000,Group D,21/03/2000,Atlético Nacional,River Plate,1,1
+2000,Group D,04/04/2000,River Plate,Universidad de Chile,3,1
+2000,Group D,05/04/2000,Atlético Nacional,Atlas,2,3
+2000,Group D,11/04/2000,River Plate,Atlas,3,2
+2000,Group D,12/04/2000,Universidad de Chile,Atlético Nacional,4,0
+2000,Group E,17/02/2000,Cerro Porteño,Atlético Junior,1,0
+2000,Group E,22/02/2000,San Lorenzo,Universitario,3,0
+2000,Group E,02/03/2000,Universitario,Cerro Porteño,1,0
+2000,Group E,02/03/2000,Atlético Junior,San Lorenzo,3,1
+2000,Group E,07/03/2000,San Lorenzo,Cerro Porteño,2,2
+2000,Group E,09/03/2000,Universitario,Atlético Junior,0,1
+2000,Group E,14/03/2000,Cerro Porteño,Universitario,3,0
+2000,Group E,14/03/2000,San Lorenzo,Atlético Junior,2,0
+2000,Group E,21/03/2000,Atlético Junior,Cerro Porteño,2,0
+2000,Group E,24/03/2000,Universitario,San Lorenzo,1,1
+2000,Group E,06/04/2000,Cerro Porteño,San Lorenzo,3,1
+2000,Group E,06/04/2000,Atlético Junior,Universitario,1,0
+2000,Group F,22/02/2000,Colegiales,América de Cali,2,5
+2000,Group F,22/02/2000,Rosario Central,Sporting Cristal,3,1
+2000,Group F,07/03/2000,Sporting Cristal,Colegiales,3,0
+2000,Group F,07/03/2000,América de Cali,Rosario Central,5,3
+2000,Group F,14/03/2000,América de Cali,Sporting Cristal,3,1
+2000,Group F,14/03/2000,Rosario Central,Colegiales,4,2
+2000,Group F,22/03/2000,Colegiales,Sporting Cristal,2,1
+2000,Group F,23/03/2000,Rosario Central,América de Cali,3,3
+2000,Group F,04/04/2000,América de Cali,Colegiales,2,1
+2000,Group F,04/04/2000,Sporting Cristal,Rosario Central,3,3
+2000,Group F,19/04/2000,Colegiales,Rosario Central,3,3
+2000,Group F,19/04/2000,Sporting Cristal,América de Cali,0,2
+2000,Group G,15/02/2000,Palmeiras,The Strongest,4,0
+2000,Group G,16/02/2000,Juventude,El Nacional,1,0
+2000,Group G,08/03/2000,The Strongest,Juventude,5,1
+2000,Group G,16/03/2000,El Nacional,Palmeiras,3,1
+2000,Group G,21/03/2000,El Nacional,The Strongest,0,0
+2000,Group G,21/03/2000,Palmeiras,Juventude,3,0
+2000,Group G,06/04/2000,Palmeiras,El Nacional,4,1
+2000,Group G,06/04/2000,Juventude,The Strongest,4,0
+2000,Group G,12/04/2000,El Nacional,Juventude,2,0
+2000,Group G,13/04/2000,The Strongest,Palmeiras,4,2
+2000,Group G,20/04/2000,The Strongest,El Nacional,1,4
+2000,Group G,20/04/2000,Juventude,Palmeiras,2,2
+2000,Group H,17/02/2000,Atlético Mineiro,Bolívar,1,0
+2000,Group H,24/02/2000,Bella Vista,Cobreloa,1,1
+2000,Group H,01/03/2000,Bolívar,Bella Vista,1,0
+2000,Group H,09/03/2000,Cobreloa,Atlético Mineiro,1,0
+2000,Group H,14/03/2000,Cobreloa,Bolívar,3,3
+2000,Group H,14/03/2000,Atlético Mineiro,Bella Vista,2,1
+2000,Group H,22/03/2000,Cobreloa,Bella Vista,1,1
+2000,Group H,22/03/2000,Bolívar,Atlético Mineiro,4,0
+2000,Group H,04/04/2000,Bella Vista,Bolívar,4,0
+2000,Group H,05/04/2000,Atlético Mineiro,Cobreloa,6,0
+2000,Group H,18/04/2000,Bolívar,Cobreloa,4,1
+2000,Group H,18/04/2000,Bella Vista,Atlético Mineiro,1,0
+2000,Round of 16 (Ida),02/05/2000,Atlético Mineiro,Atlético Paranaense,1,0
+2000,Round of 16 (Ida),02/05/2000,América (México),América de Cali,2,1
+2000,Round of 16 (Ida),03/05/2000,Rosario Central,Corinthians,3,2
+2000,Round of 16 (Ida),03/05/2000,Nacional,Bolívar,3,0
+2000,Round of 16 (Ida),03/05/2000,El Nacional,Boca Juniors,0,0
+2000,Round of 16 (Ida),03/05/2000,Atlas,Atlético Junior,2,0
+2000,Round of 16 (Ida),04/05/2000,Peñarol,Palmeiras,2,0
+2000,Round of 16 (Ida),04/05/2000,Cerro Porteño,River Plate,0,4
+2000,Round of 16 (Vuelta),09/05/2000,Corinthians,Rosario Central,3,2
+2000,Round of 16 (Vuelta),09/05/2000,Boca Juniors,El Nacional,5,3
+2000,Round of 16 (Vuelta),09/05/2000,América de Cali,América (México),2,3
+2000,Round of 16 (Vuelta),10/05/2000,River Plate,Cerro Porteño,1,0
+2000,Round of 16 (Vuelta),10/05/2000,Bolívar,Nacional,3,0
+2000,Round of 16 (Vuelta),10/05/2000,Atlético Junior,Atlas,1,3
+2000,Round of 16 (Vuelta),11/05/2000,Palmeiras,Peñarol,3,1
+2000,Round of 16 (Vuelta),11/05/2000,Atlético Paranaense,Atlético Mineiro,2,1
+2000,Quarter-finals (Ida),17/05/2000,River Plate,Boca Juniors,2,1
+2000,Quarter-finals (Ida),17/05/2000,América (México),Bolívar,2,0
+2000,Quarter-finals (Ida),18/05/2000,Atlas,Palmeiras,0,2
+2000,Quarter-finals (Ida),18/05/2000,Atlético Mineiro,Corinthians,1,1
+2000,Quarter-finals (Vuelta),23/05/2000,Corinthians,Atlético Mineiro,2,1
+2000,Quarter-finals (Vuelta),24/05/2000,Boca Juniors,River Plate,3,0
+2000,Quarter-finals (Vuelta),25/05/2000,Bolívar,América (México),1,2
+2000,Quarter-finals (Vuelta),25/05/2000,Palmeiras,Atlas,3,2
+2000,Semi-finals (Ida),30/05/2000,Corinthians,Palmeiras,4,3
+2000,Semi-finals (Ida),31/05/2000,Boca Juniors,América (México),4,1
+2000,Semi-finals (Vuelta),06/06/2000,Palmeiras,Corinthians,3,2
+2000,Semi-finals (Vuelta),07/06/2000,América (México),Boca Juniors,3,1
+2000,Final (Ida),14/06/2000,Boca Juniors,Palmeiras,2,2
+2000,Final (Vuelta),21/06/2000,Palmeiras,Boca Juniors,0,0
+2001,Group A,06/02/2001,Universitario,Vélez Sarsfield,0,2
+2001,Group A,07/02/2001,Atlético Junior,Rosario Central,3,1
+2001,Group A,21/02/2001,Rosario Central,Universitario,6,0
+2001,Group A,22/02/2001,Vélez Sarsfield,Atlético Junior,2,0
+2001,Group A,08/03/2001,Rosario Central,Vélez Sarsfield,2,0
+2001,Group A,15/03/2001,Universitario,Atlético Junior,1,2
+2001,Group A,20/03/2001,Universitario,Rosario Central,1,1
+2001,Group A,22/03/2001,Atlético Junior,Vélez Sarsfield,4,0
+2001,Group A,04/04/2001,Rosario Central,Atlético Junior,1,0
+2001,Group A,05/04/2001,Vélez Sarsfield,Universitario,1,0
+2001,Group A,19/04/2001,Atlético Junior,Universitario,1,1
+2001,Group A,19/04/2001,Vélez Sarsfield,Rosario Central,0,2
+2001,Group B,07/02/2001,Sport Boys,Cerro Porteño,0,6
+2001,Group B,08/02/2001,Universidad de Chile,Palmeiras,1,2
+2001,Group B,15/02/2001,Cerro Porteño,Universidad de Chile,6,0
+2001,Group B,21/02/2001,Palmeiras,Sport Boys,3,0
+2001,Group B,01/03/2001,Sport Boys,Universidad de Chile,0,2
+2001,Group B,04/04/2001,Palmeiras,Cerro Porteño,5,2
+2001,Group B,10/04/2001,Universidad de Chile,Cerro Porteño,0,2
+2001,Group B,12/04/2001,Sport Boys,Palmeiras,0,1
+2001,Group B,25/04/2001,Cerro Porteño,Sport Boys,3,1
+2001,Group B,25/04/2001,Palmeiras,Universidad de Chile,2,1
+2001,Group B,02/05/2001,Universidad de Chile,Sport Boys,1,1
+2001,Group B,02/05/2001,Cerro Porteño,Palmeiras,0,0
+2001,Group C,07/02/2001,Jorge Wilstermann,Flamengo,1,2
+2001,Group C,13/02/2001,San Lorenzo,Nacional,1,0
+2001,Group C,20/02/2001,Nacional,Jorge Wilstermann,3,0
+2001,Group C,27/02/2001,Flamengo,San Lorenzo,2,1
+2001,Group C,06/03/2001,San Lorenzo,Jorge Wilstermann,2,0
+2001,Group C,14/03/2001,Nacional,Flamengo,1,0
+2001,Group C,04/04/2001,Jorge Wilstermann,Nacional,1,1
+2001,Group C,04/04/2001,San Lorenzo,Flamengo,1,2
+2001,Group C,17/04/2001,Nacional,San Lorenzo,1,0
+2001,Group C,17/04/2001,Flamengo,Jorge Wilstermann,1,1
+2001,Group C,03/05/2001,Jorge Wilstermann,San Lorenzo,4,2
+2001,Group C,03/05/2001,Flamengo,Nacional,2,0
+2001,Group D,13/02/2001,Emelec,Olimpia,1,1
+2001,Group D,14/02/2001,Sporting Cristal,Cruzeiro,0,1
+2001,Group D,20/02/2001,Cruzeiro,Emelec,2,0
+2001,Group D,22/02/2001,Olimpia,Sporting Cristal,1,0
+2001,Group D,06/03/2001,Emelec,Sporting Cristal,3,1
+2001,Group D,13/03/2001,Olimpia,Cruzeiro,3,4
+2001,Group D,03/04/2001,Sporting Cristal,Olimpia,3,2
+2001,Group D,04/04/2001,Emelec,Cruzeiro,0,0
+2001,Group D,11/04/2001,Sporting Cristal,Emelec,0,1
+2001,Group D,11/04/2001,Cruzeiro,Olimpia,3,1
+2001,Group D,01/05/2001,Cruzeiro,Sporting Cristal,5,0
+2001,Group D,01/05/2001,Olimpia,Emelec,2,2
+2001,Group E,22/02/2001,El Nacional,River Plate,1,0
+2001,Group E,28/02/2001,Guaraní,The Strongest,4,1
+2001,Group E,06/03/2001,River Plate,Guaraní,4,0
+2001,Group E,08/03/2001,The Strongest,El Nacional,2,1
+2001,Group E,13/03/2001,El Nacional,Guaraní,3,1
+2001,Group E,20/03/2001,River Plate,The Strongest,5,1
+2001,Group E,05/04/2001,The Strongest,Guaraní,1,1
+2001,Group E,05/04/2001,River Plate,El Nacional,2,0
+2001,Group E,17/04/2001,Guaraní,River Plate,0,1
+2001,Group E,18/04/2001,El Nacional,The Strongest,2,1
+2001,Group E,03/05/2001,Guaraní,El Nacional,3,1
+2001,Group E,03/05/2001,The Strongest,River Plate,4,1
+2001,Group F,13/02/2001,Peñarol,América de Cali,1,2
+2001,Group F,16/02/2001,Deportivo Táchira,Vasco da Gama,0,1
+2001,Group F,27/02/2001,América de Cali,Deportivo Táchira,3,0
+2001,Group F,06/03/2001,Vasco da Gama,Peñarol,2,1
+2001,Group F,14/03/2001,Deportivo Táchira,Peñarol,0,0
+2001,Group F,14/03/2001,América de Cali,Vasco da Gama,0,3
+2001,Group F,05/04/2001,Vasco da Gama,Deportivo Táchira,3,2
+2001,Group F,05/04/2001,América de Cali,Peñarol,2,1
+2001,Group F,18/04/2001,Peñarol,Vasco da Gama,1,3
+2001,Group F,18/04/2001,Deportivo Táchira,América de Cali,0,2
+2001,Group F,02/05/2001,Vasco da Gama,América de Cali,4,1
+2001,Group F,02/05/2001,Peñarol,Deportivo Táchira,3,1
+2001,Group G,20/02/2001,Cruz Azul,Defensor Sporting,2,0
+2001,Group G,27/02/2001,Olmedo,São Caetano,2,1
+2001,Group G,06/03/2001,São Caetano,Cruz Azul,1,1
+2001,Group G,08/03/2001,Defensor Sporting,Olmedo,3,2
+2001,Group G,15/03/2001,Olmedo,Cruz Azul,2,3
+2001,Group G,15/03/2001,São Caetano,Defensor Sporting,0,0
+2001,Group G,21/03/2001,Cruz Azul,São Caetano,1,0
+2001,Group G,22/03/2001,Olmedo,Defensor Sporting,4,2
+2001,Group G,06/04/2001,São Caetano,Olmedo,3,0
+2001,Group G,06/04/2001,Defensor Sporting,Cruz Azul,3,2
+2001,Group G,12/04/2001,Defensor Sporting,São Caetano,0,1
+2001,Group G,12/04/2001,Cruz Azul,Olmedo,3,1
+2001,Group H,14/02/2001,Deportivo Cali,Cobreloa,1,2
+2001,Group H,21/02/2001,Boca Juniors,Oriente Petrolero,2,1
+2001,Group H,28/02/2001,Cobreloa,Boca Juniors,0,1
+2001,Group H,02/03/2001,Oriente Petrolero,Deportivo Cali,1,3
+2001,Group H,07/03/2001,Cobreloa,Oriente Petrolero,2,1
+2001,Group H,07/03/2001,Boca Juniors,Deportivo Cali,2,1
+2001,Group H,20/03/2001,Boca Juniors,Cobreloa,1,0
+2001,Group H,22/03/2001,Deportivo Cali,Oriente Petrolero,4,1
+2001,Group H,04/04/2001,Oriente Petrolero,Boca Juniors,0,1
+2001,Group H,04/04/2001,Cobreloa,Deportivo Cali,2,1
+2001,Group H,02/05/2001,Deportivo Cali,Boca Juniors,3,0
+2001,Group H,02/05/2001,Oriente Petrolero,Cobreloa,2,2
+2001,Round of 16 (Ida),08/05/2001,Cobreloa,Rosario Central,2,3
+2001,Round of 16 (Ida),08/05/2001,El Nacional,Cruzeiro,1,2
+2001,Round of 16 (Ida),09/05/2001,Emelec,River Plate,2,0
+2001,Round of 16 (Ida),09/05/2001,Deportivo Concepción,Vasco da Gama,1,3
+2001,Round of 16 (Ida),09/05/2001,São Caetano,Palmeiras,1,0
+2001,Round of 16 (Ida),10/05/2001,América de Cali,Nacional,2,0
+2001,Round of 16 (Ida),10/05/2001,Cerro Porteño,Cruz Azul,2,1
+2001,Round of 16 (Ida),10/05/2001,Atlético Junior,Boca Juniors,2,3
+2001,Round of 16 (Vuelta),15/05/2001,Rosario Central,Cobreloa,1,1
+2001,Round of 16 (Vuelta),15/05/2001,Cruzeiro,El Nacional,4,1
+2001,Round of 16 (Vuelta),16/05/2001,Cruz Azul,Cerro Porteño,3,1
+2001,Round of 16 (Vuelta),16/05/2001,Vasco da Gama,Deportivo Concepción,1,0
+2001,Round of 16 (Vuelta),16/05/2001,Boca Juniors,Atlético Junior,1,1
+2001,Round of 16 (Vuelta),16/05/2001,Palmeiras,São Caetano,1,0
+2001,Round of 16 (Vuelta),17/05/2001,River Plate,Emelec,5,0
+2001,Round of 16 (Vuelta),17/05/2001,Nacional,América de Cali,1,3
+2001,Quarter-finals (Ida),22/05/2001,Rosario Central,América de Cali,1,0
+2001,Quarter-finals (Ida),23/05/2001,River Plate,Cruz Azul,0,0
+2001,Quarter-finals (Ida),23/05/2001,Vasco da Gama,Boca Juniors,0,1
+2001,Quarter-finals (Ida),23/05/2001,Palmeiras,Cruzeiro,3,3
+2001,Quarter-finals (Vuelta),29/05/2001,Cruz Azul,River Plate,3,0
+2001,Quarter-finals (Vuelta),29/05/2001,América de Cali,Rosario Central,3,2
+2001,Quarter-finals (Vuelta),30/05/2001,Boca Juniors,Vasco da Gama,3,0
+2001,Quarter-finals (Vuelta),30/05/2001,Cruzeiro,Palmeiras,2,2
+2001,Semi-finals (Ida),07/06/2001,Cruz Azul,Rosario Central,2,0
+2001,Semi-finals (Ida),07/06/2001,Boca Juniors,Palmeiras,2,2
+2001,Semi-finals (Vuelta),13/06/2001,Palmeiras,Boca Juniors,2,2
+2001,Semi-finals (Vuelta),14/06/2001,Rosario Central,Cruz Azul,3,3
+2001,Final (Ida),20/06/2001,Cruz Azul,Boca Juniors,0,1
+2001,Final (Vuelta),28/06/2001,Boca Juniors,Cruz Azul,0,1
+2002,Group A,06/02/2002,São Caetano,Alianza Lima,4,0
+2002,Group A,07/02/2002,Cobreloa,Cerro Porteño,3,0
+2002,Group A,13/02/2002,Alianza Lima,Cobreloa,0,1
+2002,Group A,19/02/2002,Cerro Porteño,São Caetano,1,3
+2002,Group A,26/02/2002,Alianza Lima,Cerro Porteño,0,1
+2002,Group A,28/02/2002,Cobreloa,São Caetano,2,1
+2002,Group A,13/03/2002,Cerro Porteño,Alianza Lima,2,0
+2002,Group A,14/03/2002,São Caetano,Cobreloa,3,0
+2002,Group A,28/03/2002,Cobreloa,Alianza Lima,5,0
+2002,Group A,04/04/2002,São Caetano,Cerro Porteño,0,1
+2002,Group A,10/04/2002,Alianza Lima,São Caetano,0,3
+2002,Group A,10/04/2002,Cerro Porteño,Cobreloa,3,0
+2002,Group B,05/02/2002,Oriente Petrolero,Cienciano,3,1
+2002,Group B,07/02/2002,Grêmio,12 de Octubre,1,0
+2002,Group B,13/02/2002,Oriente Petrolero,12 de Octubre,1,0
+2002,Group B,20/02/2002,Cienciano,Grêmio,2,1
+2002,Group B,28/02/2002,12 de Octubre,Cienciano,1,0
+2002,Group B,28/02/2002,Grêmio,Oriente Petrolero,3,2
+2002,Group B,12/03/2002,Oriente Petrolero,Grêmio,2,4
+2002,Group B,19/03/2002,Cienciano,12 de Octubre,3,0
+2002,Group B,02/04/2002,12 de Octubre,Oriente Petrolero,3,2
+2002,Group B,03/04/2002,Grêmio,Cienciano,2,0
+2002,Group B,09/04/2002,12 de Octubre,Grêmio,1,0
+2002,Group B,09/04/2002,Cienciano,Oriente Petrolero,2,0
+2002,Group C,05/02/2002,Real Potosí,San Lorenzo,1,0
+2002,Group C,05/02/2002,El Nacional,Peñarol,1,0
+2002,Group C,12/02/2002,Peñarol,Real Potosí,4,0
+2002,Group C,26/02/2002,San Lorenzo,El Nacional,1,0
+2002,Group C,05/03/2002,Real Potosí,El Nacional,2,4
+2002,Group C,06/03/2002,Peñarol,San Lorenzo,1,0
+2002,Group C,12/03/2002,Peñarol,El Nacional,3,0
+2002,Group C,12/03/2002,San Lorenzo,Real Potosí,5,1
+2002,Group C,19/03/2002,Real Potosí,Peñarol,6,1
+2002,Group C,19/03/2002,El Nacional,San Lorenzo,3,0
+2002,Group C,09/04/2002,San Lorenzo,Peñarol,0,2
+2002,Group C,09/04/2002,El Nacional,Real Potosí,2,0
+2002,Group D,05/02/2002,Atlético Paranaense,Bolívar,1,2
+2002,Group D,07/02/2002,América de Cali,Olmedo,1,0
+2002,Group D,19/02/2002,Olmedo,Atlético Paranaense,2,1
+2002,Group D,20/02/2002,Bolívar,América de Cali,1,1
+2002,Group D,27/02/2002,Atlético Paranaense,América de Cali,1,1
+2002,Group D,28/02/2002,Olmedo,Bolívar,4,1
+2002,Group D,05/03/2002,Bolívar,Olmedo,2,0
+2002,Group D,05/03/2002,América de Cali,Atlético Paranaense,5,0
+2002,Group D,12/03/2002,Atlético Paranaense,Olmedo,2,0
+2002,Group D,12/03/2002,América de Cali,Bolívar,2,0
+2002,Group D,26/03/2002,Olmedo,América de Cali,1,0
+2002,Group D,27/03/2002,Bolívar,Atlético Paranaense,5,5
+2002,Group E,05/02/2002,Monarcas Morelia,Vélez Sarsfield,0,0
+2002,Group E,06/02/2002,Sporting Cristal,Nacional,3,4
+2002,Group E,21/02/2002,Nacional,Monarcas Morelia,3,3
+2002,Group E,26/02/2002,Vélez Sarsfield,Sporting Cristal,1,0
+2002,Group E,05/03/2002,Nacional,Vélez Sarsfield,2,2
+2002,Group E,05/03/2002,Monarcas Morelia,Sporting Cristal,4,0
+2002,Group E,13/03/2002,Vélez Sarsfield,Nacional,0,1
+2002,Group E,13/03/2002,Sporting Cristal,Monarcas Morelia,0,1
+2002,Group E,20/03/2002,Sporting Cristal,Vélez Sarsfield,2,3
+2002,Group E,04/04/2002,Monarcas Morelia,Nacional,4,2
+2002,Group E,11/04/2002,Nacional,Sporting Cristal,1,0
+2002,Group E,11/04/2002,Vélez Sarsfield,Monarcas Morelia,2,3
+2002,Group F,06/02/2002,Montevideo Wanderers,Emelec,3,1
+2002,Group F,13/02/2002,Santiago Wanderers,Boca Juniors,0,0
+2002,Group F,19/02/2002,Boca Juniors,Montevideo Wanderers,2,0
+2002,Group F,27/02/2002,Emelec,Santiago Wanderers,1,1
+2002,Group F,06/03/2002,Boca Juniors,Emelec,1,0
+2002,Group F,06/03/2002,Montevideo Wanderers,Santiago Wanderers,3,1
+2002,Group F,19/03/2002,Emelec,Boca Juniors,1,2
+2002,Group F,19/03/2002,Santiago Wanderers,Montevideo Wanderers,1,1
+2002,Group F,02/04/2002,Santiago Wanderers,Emelec,2,1
+2002,Group F,02/04/2002,Montevideo Wanderers,Boca Juniors,0,2
+2002,Group F,10/04/2002,Emelec,Montevideo Wanderers,0,1
+2002,Group F,10/04/2002,Boca Juniors,Santiago Wanderers,0,0
+2002,Group G,06/02/2002,América (México),Talleres,2,0
+2002,Group G,14/02/2002,River Plate,Talleres,0,0
+2002,Group G,20/02/2002,Cortuluá,América (México),0,2
+2002,Group G,27/02/2002,Talleres,Cortuluá,2,1
+2002,Group G,28/02/2002,River Plate,América (México),0,1
+2002,Group G,12/03/2002,América (México),Cortuluá,3,2
+2002,Group G,12/03/2002,Talleres,River Plate,1,1
+2002,Group G,21/03/2002,Cortuluá,Talleres,1,1
+2002,Group G,21/03/2002,América (México),River Plate,0,0
+2002,Group G,11/04/2002,Talleres,América (México),0,1
+2002,Group G,11/04/2002,River Plate,Cortuluá,2,0
+2002,Group G,11/04/2002,Cortuluá,River Plate,2,5
+2002,Group H,06/02/2002,Once Caldas,Flamengo,1,0
+2002,Group H,14/02/2002,Flamengo,Universidad Católica,1,3
+2002,Group H,21/02/2002,Olimpia,Once Caldas,3,2
+2002,Group H,27/02/2002,Universidad Católica,Olimpia,0,1
+2002,Group H,06/03/2002,Flamengo,Olimpia,0,0
+2002,Group H,07/03/2002,Once Caldas,Universidad Católica,3,0
+2002,Group H,13/03/2002,Universidad Católica,Once Caldas,3,1
+2002,Group H,10/04/2002,Olimpia,Flamengo,2,0
+2002,Group H,02/04/2002,Olimpia,Universidad Católica,1,1
+2002,Group H,04/04/2002,Once Caldas,Olimpia,2,1
+2002,Group H,10/04/2002,Universidad Católica,Flamengo,2,1
+2002,Group H,10/04/2002,Flamengo,Once Caldas,4,1
+2002,Round of 16 (Ida),23/04/2002,Cienciano,América (México),0,1
+2002,Round of 16 (Ida),23/04/2002,Nacional,América de Cali,1,0
+2002,Round of 16 (Ida),23/04/2002,Cobreloa,Olimpia,1,1
+2002,Round of 16 (Ida),24/04/2002,River Plate,Grêmio,1,2
+2002,Round of 16 (Ida),24/04/2002,Montevideo Wanderers,Peñarol,2,2
+2002,Round of 16 (Ida),24/04/2002,Olmedo,Monarcas Morelia,0,5
+2002,Round of 16 (Ida),25/04/2002,El Nacional,Boca Juniors,0,0
+2002,Round of 16 (Ida),25/04/2002,Universidad Católica,São Caetano,1,1
+2002,Round of 16 (Vuelta),29/04/2002,Peñarol,Montevideo Wanderers,2,2
+2002,Round of 16 (Vuelta),30/04/2002,Monarcas Morelia,Olmedo,3,2
+2002,Round of 16 (Vuelta),01/05/2002,Boca Juniors,El Nacional,2,0
+2002,Round of 16 (Vuelta),01/05/2002,América (México),Cienciano,4,1
+2002,Round of 16 (Vuelta),01/05/2002,São Caetano,Universidad Católica,1,1
+2002,Round of 16 (Vuelta),02/05/2002,América de Cali,Nacional,0,0
+2002,Round of 16 (Vuelta),02/05/2002,Olimpia,Cobreloa,2,1
+2002,Round of 16 (Vuelta),02/05/2002,Grêmio,River Plate,4,0
+2002,Quarter-finals (Ida),06/05/2002,Monarcas Morelia,América (México),1,2
+2002,Quarter-finals (Ida),07/05/2002,Grêmio,Nacional,1,0
+2002,Quarter-finals (Ida),08/05/2002,Peñarol,São Caetano,1,0
+2002,Quarter-finals (Ida),08/05/2002,Boca Juniors,Olimpia,1,1
+2002,Quarter-finals (Vuelta),13/05/2002,São Caetano,Peñarol,2,1
+2002,Quarter-finals (Vuelta),14/05/2002,Nacional,Grêmio,1,1
+2002,Quarter-finals (Vuelta),15/05/2002,América (México),Monarcas Morelia,2,1
+2002,Quarter-finals (Vuelta),16/05/2002,Olimpia,Boca Juniors,1,0
+2002,Semi-finals (Ida),08/07/2002,São Caetano,América (México),2,0
+2002,Semi-finals (Ida),09/07/2002,Olimpia,Grêmio,3,2
+2002,Semi-finals (Vuelta),15/07/2002,América (México),São Caetano,1,1
+2002,Semi-finals (Vuelta),16/07/2002,Grêmio,Olimpia,1,0
+2002,Final (Ida),23/07/2002,Olimpia,São Caetano,0,1
+2002,Final (Vuelta),30/07/2002,São Caetano,Olimpia,1,2
+2003,Group A,18/02/2003,Cobreloa,Universitario,2,1
+2003,Group A,19/02/2003,Rosario Central,Independiente Medellín,1,2
+2003,Group A,25/02/2003,Independiente Medellín,Cobreloa,2,0
+2003,Group A,26/02/2003,Universitario,Rosario Central,1,1
+2003,Group A,04/03/2003,Independiente Medellín,Universitario,3,1
+2003,Group A,05/03/2003,Rosario Central,Cobreloa,3,2
+2003,Group A,18/03/2003,Universitario,Cobreloa,2,3
+2003,Group A,19/03/2003,Independiente Medellín,Rosario Central,1,0
+2003,Group A,08/04/2003,Cobreloa,Independiente Medellín,0,0
+2003,Group A,09/04/2003,Rosario Central,Universitario,4,1
+2003,Group A,15/04/2003,Universitario,Independiente Medellín,1,2
+2003,Group A,16/04/2003,Cobreloa,Rosario Central,4,0
+2003,Group B,05/02/2003,Paysandú,Cruzeiro,2,2
+2003,Group B,06/02/2003,Cerro Porteño,Universidad Católica (Chile),3,2
+2003,Group B,12/02/2003,Cruzeiro,Cerro Porteño,3,1
+2003,Group B,13/02/2003,Universidad Católica (Chile),Paysandú,1,3
+2003,Group B,19/02/2003,Cerro Porteño,Paysandú,2,1
+2003,Group B,20/02/2003,Cruzeiro,Universidad Católica (Chile),0,1
+2003,Group B,04/03/2003,Cruzeiro,Paysandú,2,1
+2003,Group B,06/03/2003,Universidad Católica (Chile),Cerro Porteño,0,0
+2003,Group B,11/03/2003,Cerro Porteño,Cruzeiro,0,1
+2003,Group B,12/03/2003,Paysandú,Universidad Católica (Chile),4,0
+2003,Group B,17/04/2003,Paysandú,Cerro Porteño,2,1
+2003,Group B,17/04/2003,Universidad Católica (Chile),Cruzeiro,2,3
+2003,Group C,19/02/2003,The Strongest,Galatasaray (URU),1,0
+2003,Group C,20/02/2003,Olimpia,Gimnasia y Esgrima (La Plata),4,1
+2003,Group C,26/02/2003,Gimnasia y Esgrima (La Plata),The Strongest,2,0
+2003,Group C,27/02/2003,Galatasaray (URU),Olimpia,2,3
+2003,Group C,05/03/2003,Gimnasia y Esgrima (La Plata),Galatasaray (URU),0,0
+2003,Group C,06/03/2003,Olimpia,The Strongest,5,2
+2003,Group C,12/03/2003,Galatasaray (URU),The Strongest,1,1
+2003,Group C,13/03/2003,Gimnasia y Esgrima (La Plata),Olimpia,3,0
+2003,Group C,09/04/2003,The Strongest,Gimnasia y Esgrima (La Plata),2,1
+2003,Group C,10/04/2003,Olimpia,Galatasaray (URU),2,0
+2003,Group C,16/04/2003,Galatasaray (URU),Gimnasia y Esgrima (La Plata),2,3
+2003,Group C,16/04/2003,The Strongest,Olimpia,1,1
+2003,Group D,05/02/2003,River Plate,Libertad,2,1
+2003,Group D,06/02/2003,Emelec,Deportivo Pasto,3,0
+2003,Group D,12/02/2003,Deportivo Pasto,River Plate,2,3
+2003,Group D,13/02/2003,Libertad,Emelec,5,1
+2003,Group D,19/02/2003,Deportivo Pasto,Libertad,4,1
+2003,Group D,20/02/2003,Emelec,River Plate,3,1
+2003,Group D,04/03/2003,Libertad,River Plate,3,1
+2003,Group D,05/03/2003,Deportivo Pasto,Emelec,2,1
+2003,Group D,11/03/2003,River Plate,Deportivo Pasto,6,0
+2003,Group D,13/03/2003,Emelec,Libertad,2,2
+2003,Group D,15/04/2003,Libertad,Deportivo Pasto,2,1
+2003,Group D,17/04/2003,River Plate,Emelec,2,0
+2003,Group E,11/02/2003,América (México),Racing Club,2,0
+2003,Group E,12/02/2003,Nacional,Universitario,1,0
+2003,Group E,18/02/2003,Racing Club,Nacional,1,2
+2003,Group E,19/02/2003,Universitario,América (México),0,0
+2003,Group E,25/02/2003,Nacional,América (México),2,0
+2003,Group E,26/02/2003,Universitario,Racing Club,1,4
+2003,Group E,11/03/2003,Racing Club,América (México),3,1
+2003,Group E,12/03/2003,Universitario,Nacional,0,2
+2003,Group E,15/04/2003,Nacional,Racing Club,2,0
+2003,Group E,16/04/2003,América (México),Universitario,4,1
+2003,Group E,22/04/2003,América (México),Nacional,2,0
+2003,Group E,22/04/2003,Racing Club,Universitario,1,1
+2003,Group F,11/02/2003,Peñarol,Oriente Petrolero,2,0
+2003,Group F,12/02/2003,Grêmio,Pumas UNAM,3,2
+2003,Group F,18/02/2003,Pumas UNAM,Peñarol,3,1
+2003,Group F,19/02/2003,Oriente Petrolero,Grêmio,2,3
+2003,Group F,25/02/2003,Pumas UNAM,Oriente Petrolero,5,0
+2003,Group F,26/02/2003,Peñarol,Grêmio,2,2
+2003,Group F,11/03/2003,Oriente Petrolero,Peñarol,0,3
+2003,Group F,12/03/2003,Pumas UNAM,Grêmio,1,0
+2003,Group F,15/04/2003,Peñarol,Pumas UNAM,1,0
+2003,Group F,16/04/2003,Grêmio,Oriente Petrolero,2,0
+2003,Group F,22/04/2003,Oriente Petrolero,Pumas UNAM,1,1
+2003,Group F,22/04/2003,Grêmio,Peñarol,4,1
+2003,Group G,19/02/2003,Santos FC,América de Cali,3,0
+2003,Group G,20/02/2003,12 de Octubre,El Nacional,1,0
+2003,Group G,26/02/2003,América de Cali,12 de Octubre,4,1
+2003,Group G,27/02/2003,El Nacional,Santos FC,4,4
+2003,Group G,05/03/2003,América de Cali,El Nacional,1,0
+2003,Group G,06/03/2003,12 de Octubre,Santos FC,1,1
+2003,Group G,12/03/2003,América de Cali,Santos FC,0,0
+2003,Group G,13/03/2003,El Nacional,12 de Octubre,1,3
+2003,Group G,09/04/2003,12 de Octubre,América de Cali,1,1
+2003,Group G,10/04/2003,Santos FC,El Nacional,3,1
+2003,Group G,16/04/2003,El Nacional,América de Cali,1,0
+2003,Group G,17/04/2003,Santos FC,12 de Octubre,3,0
+2003,Group H,11/02/2003,Boca Juniors,Colo Colo,2,1
+2003,Group H,12/02/2003,Barcelona SC,Independiente Medellín,2,1
+2003,Group H,18/02/2003,Colo Colo,Barcelona SC,2,0
+2003,Group H,19/02/2003,Independiente Medellín,Boca Juniors,0,1
+2003,Group H,25/02/2003,Colo Colo,Independiente Medellín,2,0
+2003,Group H,26/02/2003,Barcelona SC,Boca Juniors,2,2
+2003,Group H,11/03/2003,Colo Colo,Boca Juniors,2,0
+2003,Group H,13/03/2003,Independiente Medellín,Barcelona SC,1,0
+2003,Group H,15/04/2003,Barcelona SC,Colo Colo,2,0
+2003,Group H,16/04/2003,Boca Juniors,Independiente Medellín,2,0
+2003,Group H,22/04/2003,Independiente Medellín,Colo Colo,2,0
+2003,Group H,22/04/2003,Boca Juniors,Barcelona SC,2,1
+2003,Round of 16 (Ida),22/04/2003,Olimpia,Grêmio,2,3
+2003,Round of 16 (Ida),23/04/2003,Nacional,Santos FC,4,4
+2003,Round of 16 (Ida),23/04/2003,Cerro Porteño,Independiente Medellín,0,1
+2003,Round of 16 (Ida),24/04/2003,Pumas UNAM,Cobreloa,0,1
+2003,Round of 16 (Ida),24/04/2003,Boca Juniors,Paysandú,0,1
+2003,Round of 16 (Ida),29/04/2003,América de Cali,Racing Club,1,1
+2003,Round of 16 (Ida),01/05/2003,River Plate,Corinthians,2,1
+2003,Round of 16 (Ida),06/05/2003,Cruz Azul,Deportivo Cali,0,0
+2003,Round of 16 (Vuelta),06/05/2003,Independiente Medellín,Cerro Porteño,4,3
+2003,Round of 16 (Vuelta),07/05/2003,Santos FC,Nacional,5,3
+2003,Round of 16 (Vuelta),08/05/2003,Grêmio,Olimpia,3,0
+2003,Round of 16 (Vuelta),08/05/2003,Cobreloa,Pumas UNAM,0,0
+2003,Round of 16 (Vuelta),13/05/2003,Racing Club,América de Cali,5,6
+2003,Round of 16 (Vuelta),13/05/2003,Deportivo Cali,Cruz Azul,2,3
+2003,Round of 16 (Vuelta),14/05/2003,Corinthians,River Plate,1,2
+2003,Round of 16 (Vuelta),15/05/2003,Paysandú,Boca Juniors,2,4
+2003,Quarter-finals (Ida),20/05/2003,River Plate,América de Cali,2,1
+2003,Quarter-finals (Ida),21/05/2003,Cobreloa,Boca Juniors,1,2
+2003,Quarter-finals (Ida),21/05/2003,Cruz Azul,Santos FC,2,2
+2003,Quarter-finals (Ida),22/05/2003,Grêmio,Independiente Medellín,2,2
+2003,Quarter-finals (Vuelta),27/05/2003,América de Cali,River Plate,4,1
+2003,Quarter-finals (Vuelta),28/05/2003,Boca Juniors,Cobreloa,2,1
+2003,Quarter-finals (Vuelta),28/05/2003,Santos FC,Cruz Azul,1,0
+2003,Quarter-finals (Vuelta),29/05/2003,Independiente Medellín,Grêmio,2,1
+2003,Semi-finals (Ida),04/06/2003,Santos FC,Independiente Medellín,1,0
+2003,Semi-finals (Ida),11/06/2003,Boca Juniors,América de Cali,2,0
+2003,Semi-finals (Vuelta),18/06/2003,Independiente Medellín,Santos FC,2,3
+2003,Semi-finals (Vuelta),19/06/2003,América de Cali,Boca Juniors,0,4
+2003,Final (Ida),25/06/2003,Boca Juniors,Santos FC,2,0
+2003,Final (Vuelta),02/07/2003,Santos FC,Boca Juniors,1,3
+2004,Group A,04/02/2004,Club América,Peñarol,3,1
+2004,Group A,05/02/2004,The Strongest,São Caetano,0,0
+2004,Group A,11/02/2004,São Caetano,Club América,1,2
+2004,Group A,12/02/2004,Peñarol,The Strongest,4,0
+2004,Group A,19/02/2004,São Caetano,Peñarol,1,1
+2004,Group A,26/02/2004,The Strongest,Club América,0,0
+2004,Group A,02/03/2004,Peñarol,São Caetano,1,1
+2004,Group A,11/03/2004,Club América,The Strongest,4,0
+2004,Group A,17/03/2004,Club América,São Caetano,2,1
+2004,Group A,23/03/2004,The Strongest,Peñarol,2,0
+2004,Group A,08/04/2004,São Caetano,The Strongest,4,2
+2004,Group A,08/04/2004,Peñarol,Club América,2,0
+2004,Group B,10/02/2004,Vélez Sarsfield,Maracaibo,1,1
+2004,Group B,19/02/2004,Once Caldas,Fénix,3,0
+2004,Group B,25/02/2004,Maracaibo,Once Caldas,1,2
+2004,Group B,25/02/2004,Fénix,Vélez Sarsfield,2,1
+2004,Group B,03/03/2004,Fénix,Maracaibo,1,2
+2004,Group B,09/03/2004,Vélez Sarsfield,Once Caldas,2,0
+2004,Group B,17/03/2004,Once Caldas,Vélez Sarsfield,2,0
+2004,Group B,18/03/2004,Maracaibo,Fénix,1,1
+2004,Group B,06/04/2004,Vélez Sarsfield,Fénix,1,0
+2004,Group B,06/04/2004,Once Caldas,Maracaibo,2,1
+2004,Group B,22/04/2004,Maracaibo,Vélez Sarsfield,4,2
+2004,Group B,22/04/2004,Fénix,Once Caldas,2,2
+2004,Group C,03/02/2004,Santos Laguna,Universidad de Concepción,2,2
+2004,Group C,04/02/2004,Cruzeiro,Caracas,3,1
+2004,Group C,10/02/2004,Universidad de Concepción,Cruzeiro,1,3
+2004,Group C,12/02/2004,Caracas,Santos Laguna,0,1
+2004,Group C,24/02/2004,Caracas,Universidad de Concepción,2,3
+2004,Group C,02/03/2004,Cruzeiro,Santos Laguna,1,1
+2004,Group C,10/03/2004,Santos Laguna,Cruzeiro,1,0
+2004,Group C,17/03/2004,Universidad de Concepción,Caracas,2,3
+2004,Group C,06/04/2004,Santos Laguna,Caracas,3,1
+2004,Group C,07/04/2004,Cruzeiro,Universidad de Concepción,5,0
+2004,Group C,14/04/2004,Caracas,Cruzeiro,2,3
+2004,Group C,14/04/2004,Universidad de Concepción,Santos Laguna,2,2
+2004,Group D,10/02/2004,Cobreloa,LDU de Quito,0,2
+2004,Group D,11/02/2004,Alianza Lima,São Paulo,1,2
+2004,Group D,25/02/2004,LDU de Quito,Alianza Lima,3,0
+2004,Group D,26/02/2004,São Paulo,Cobreloa,3,1
+2004,Group D,04/03/2004,LDU de Quito,São Paulo,3,0
+2004,Group D,04/03/2004,Alianza Lima,Cobreloa,2,0
+2004,Group D,10/03/2004,Cobreloa,Alianza Lima,0,1
+2004,Group D,10/03/2004,São Paulo,LDU de Quito,1,0
+2004,Group D,24/03/2004,Cobreloa,São Paulo,1,2
+2004,Group D,25/03/2004,Alianza Lima,LDU de Quito,1,0
+2004,Group D,07/04/2004,LDU de Quito,Cobreloa,5,1
+2004,Group D,07/04/2004,São Paulo,Alianza Lima,3,1
+2004,Group E,12/02/2004,El Nacional,Nacional,0,0
+2004,Group E,12/02/2004,Independiente,Cienciano,4,2
+2004,Group E,24/02/2004,Nacional,Independiente,0,0
+2004,Group E,26/02/2004,Cienciano,El Nacional,1,0
+2004,Group E,02/03/2004,Independiente,El Nacional,2,0
+2004,Group E,04/03/2004,Nacional,Cienciano,1,0
+2004,Group E,11/03/2004,Cienciano,Nacional,1,2
+2004,Group E,16/03/2004,El Nacional,Independiente,1,0
+2004,Group E,23/03/2004,El Nacional,Cienciano,3,3
+2004,Group E,25/03/2004,Independiente,Nacional,1,1
+2004,Group E,20/04/2004,Nacional,El Nacional,3,2
+2004,Group E,20/04/2004,Cienciano,Independiente,3,2
+2004,Group F,03/02/2004,Libertad,Deportes Tolima,0,0
+2004,Group F,11/02/2004,Deportivo Táchira,River Plate,0,0
+2004,Group F,24/02/2004,Deportes Tolima,Deportivo Táchira,1,1
+2004,Group F,25/02/2004,River Plate,Libertad,4,1
+2004,Group F,09/03/2004,Deportivo Táchira,Libertad,2,0
+2004,Group F,11/03/2004,Deportes Tolima,River Plate,2,3
+2004,Group F,17/03/2004,Libertad,Deportivo Táchira,1,1
+2004,Group F,18/03/2004,River Plate,Deportes Tolima,1,0
+2004,Group F,07/04/2004,Libertad,River Plate,1,0
+2004,Group F,08/04/2004,Deportivo Táchira,Deportes Tolima,2,0
+2004,Group F,14/04/2004,River Plate,Deportivo Táchira,2,2
+2004,Group F,14/04/2004,Deportes Tolima,Libertad,3,2
+2004,Group G,04/02/2004,Guaraní,Barcelona SC,0,0
+2004,Group G,05/02/2004,Jorge Wilstermann,Santos FC,2,3
+2004,Group G,12/02/2004,Barcelona SC,Jorge Wilstermann,4,0
+2004,Group G,18/02/2004,Santos FC,Guaraní,2,2
+2004,Group G,03/03/2004,Jorge Wilstermann,Guaraní,0,0
+2004,Group G,03/03/2004,Barcelona SC,Santos FC,1,3
+2004,Group G,11/03/2004,Santos FC,Barcelona SC,1,0
+2004,Group G,18/03/2004,Guaraní,Jorge Wilstermann,3,1
+2004,Group G,24/03/2004,Jorge Wilstermann,Barcelona SC,2,2
+2004,Group G,25/03/2004,Guaraní,Santos FC,1,2
+2004,Group G,14/04/2004,Santos FC,Jorge Wilstermann,5,0
+2004,Group G,14/04/2004,Barcelona SC,Guaraní,2,0
+2004,Group H,03/02/2004,Colo Colo,Deportivo Cali,2,3
+2004,Group H,18/02/2004,Bolívar,Boca Juniors,3,1
+2004,Group H,02/03/2004,Deportivo Cali,Bolívar,3,1
+2004,Group H,03/03/2004,Boca Juniors,Colo Colo,2,0
+2004,Group H,10/03/2004,Deportivo Cali,Boca Juniors,0,1
+2004,Group H,18/03/2004,Bolívar,Colo Colo,2,0
+2004,Group H,24/03/2004,Boca Juniors,Deportivo Cali,3,0
+2004,Group H,25/03/2004,Colo Colo,Bolívar,2,0
+2004,Group H,07/04/2004,Bolívar,Deportivo Cali,1,0
+2004,Group H,08/04/2004,Colo Colo,Boca Juniors,1,0
+2004,Group H,21/04/2004,Boca Juniors,Bolívar,3,0
+2004,Group H,21/04/2004,Deportivo Cali,Colo Colo,3,1
+2004,Group I,05/02/2004,Olimpia,Rosario Central,0,2
+2004,Group I,10/02/2004,Sporting Cristal,Coritiba,4,1
+2004,Group I,17/02/2004,Coritiba,Olimpia,1,1
+2004,Group I,26/02/2004,Rosario Central,Sporting Cristal,1,1
+2004,Group I,04/03/2004,Rosario Central,Coritiba,2,0
+2004,Group I,09/03/2004,Sporting Cristal,Olimpia,3,2
+2004,Group I,10/03/2004,Coritiba,Rosario Central,2,0
+2004,Group I,16/03/2004,Olimpia,Sporting Cristal,2,1
+2004,Group I,23/03/2004,Sporting Cristal,Rosario Central,4,1
+2004,Group I,06/04/2004,Olimpia,Coritiba,1,1
+2004,Group I,13/04/2004,Coritiba,Sporting Cristal,2,0
+2004,Group I,13/04/2004,Rosario Central,Olimpia,2,1
+2004,Round of 16 (Ida),04/05/2004,Santos Laguna,River Plate,0,1
+2004,Round of 16 (Ida),04/05/2004,Sporting Cristal,Boca Juniors,2,3
+2004,Round of 16 (Ida),04/05/2004,Deportivo Táchira,Nacional,3,0
+2004,Round of 16 (Ida),05/05/2004,São Caetano,Club América,2,1
+2004,Round of 16 (Ida),05/05/2004,Deportivo Cali,Cruzeiro,1,0
+2004,Round of 16 (Ida),05/05/2004,LDU de Quito,Santos FC,4,2
+2004,Round of 16 (Ida),06/05/2004,Rosario Central,São Paulo,1,0
+2004,Round of 16 (Ida),06/05/2004,Barcelona SC,Once Caldas,0,0
+2004,Round of 16 (Vuelta),11/05/2004,Club América,São Caetano,1,1
+2004,Round of 16 (Vuelta),11/05/2004,Santos FC,LDU de Quito,7,3
+2004,Round of 16 (Vuelta),11/05/2004,River Plate,Santos Laguna,5,4
+2004,Round of 16 (Vuelta),12/05/2004,São Paulo,Rosario Central,7,5
+2004,Round of 16 (Vuelta),13/05/2004,Nacional,Deportivo Táchira,2,2
+2004,Round of 16 (Vuelta),13/05/2004,Once Caldas,Barcelona SC,5,3
+2004,Round of 16 (Vuelta),13/05/2004,Cruzeiro,Deportivo Cali,2,4
+2004,Round of 16 (Vuelta),13/05/2004,Boca Juniors,Sporting Cristal,2,1
+2004,Quarter-finals (Ida),19/05/2004,São Paulo,Deportivo Táchira,3,0
+2004,Quarter-finals (Ida),19/05/2004,Santos FC,Once Caldas,1,1
+2004,Quarter-finals (Ida),20/05/2004,River Plate,Deportivo Cali,1,0
+2004,Quarter-finals (Ida),20/05/2004,São Caetano,Boca Juniors,0,0
+2004,Quarter-finals (Vuelta),26/05/2004,Deportivo Cali,River Plate,1,3
+2004,Quarter-finals (Vuelta),26/05/2004,Deportivo Táchira,São Paulo,1,4
+2004,Quarter-finals (Vuelta),26/05/2004,Boca Juniors,São Caetano,5,4
+2004,Quarter-finals (Vuelta),27/05/2004,Once Caldas,Santos FC,1,0
+2004,Semi-finals (Ida),09/06/2004,São Paulo,Once Caldas,0,0
+2004,Semi-finals (Ida),10/06/2004,Boca Juniors,River Plate,1,0
+2004,Semi-finals (Vuelta),16/06/2004,Once Caldas,São Paulo,2,1
+2004,Semi-finals (Vuelta),17/06/2004,River Plate,Boca Juniors,4,5
+2004,Final (Ida),23/06/2004,Boca Juniors,Once Caldas,0,0
+2004,Final (Vuelta),01/07/2004,Once Caldas,Boca Juniors,3,1
+2005,Group A,15/02/2005,Independiente Medellín,Atlético Paranaense,2,2
+2005,Group A,17/02/2005,Libertad,América de Cali,1,2
+2005,Group A,22/02/2005,América de Cali,Independiente Medellín,1,0
+2005,Group A,01/03/2005,Atlético Paranaense,Libertad,1,0
+2005,Group A,08/03/2005,Libertad,Independiente Medellín,3,2
+2005,Group A,10/03/2005,América de Cali,Atlético Paranaense,3,1
+2005,Group A,17/03/2005,Independiente Medellín,Libertad,4,2
+2005,Group A,14/04/2005,Atlético Paranaense,América de Cali,2,1
+2005,Group A,20/04/2005,Libertad,Atlético Paranaense,1,2
+2005,Group A,26/04/2005,Independiente Medellín,América de Cali,2,0
+2005,Group A,10/05/2005,Atlético Paranaense,Independiente Medellín,0,4
+2005,Group A,10/05/2005,América de Cali,Libertad,0,1
+2005,Group B,16/02/2005,Bolívar,Santos FC,4,3
+2005,Group B,24/02/2005,Danubio,LDU de Quito,3,0
+2005,Group B,03/03/2005,Santos FC,Danubio,3,2
+2005,Group B,08/03/2005,LDU de Quito,Bolívar,1,0
+2005,Group B,15/03/2005,Danubio,Bolívar,2,0
+2005,Group B,17/03/2005,LDU de Quito,Santos FC,2,1
+2005,Group B,06/04/2005,Santos FC,LDU de Quito,3,1
+2005,Group B,12/04/2005,Bolívar,Danubio,2,0
+2005,Group B,20/04/2005,Danubio,Santos FC,1,2
+2005,Group B,26/04/2005,Bolívar,LDU de Quito,2,2
+2005,Group B,11/05/2005,Santos FC,Bolívar,6,0
+2005,Group B,11/05/2005,LDU de Quito,Danubio,1,1
+2005,Group C,17/02/2005,The Strongest,Quilmes,3,3
+2005,Group C,22/02/2005,Universidad de Chile,São Paulo,1,1
+2005,Group C,03/03/2005,São Paulo,The Strongest,3,0
+2005,Group C,09/03/2005,São Paulo,Quilmes,3,1
+2005,Group C,15/03/2005,Universidad de Chile,Quilmes,3,2
+2005,Group C,16/03/2005,The Strongest,São Paulo,3,3
+2005,Group C,13/04/2005,Quilmes,São Paulo,2,2
+2005,Group C,15/04/2005,The Strongest,Universidad de Chile,0,0
+2005,Group C,21/04/2005,São Paulo,Universidad de Chile,4,2
+2005,Group C,28/04/2005,Quilmes,The Strongest,1,0
+2005,Group C,11/05/2005,São Paulo,The Strongest,3,0
+2005,Group C,11/05/2005,Universidad de Chile,Quilmes,1,1
+2005,Group D,02/03/2005,Deportivo Táchira,Santo André,1,0
+2005,Group D,02/03/2005,Cerro Porteño,Palmeiras,1,1
+2005,Group D,10/03/2005,Palmeiras,Deportivo Táchira,3,0
+2005,Group D,16/03/2005,Santo André,Cerro Porteño,2,2
+2005,Group D,06/04/2005,Palmeiras,Santo André,1,1
+2005,Group D,07/04/2005,Cerro Porteño,Deportivo Táchira,3,1
+2005,Group D,19/04/2005,Santo André,Palmeiras,2,1
+2005,Group D,19/04/2005,Deportivo Táchira,Cerro Porteño,0,3
+2005,Group D,28/04/2005,Cerro Porteño,Santo André,1,0
+2005,Group D,04/05/2005,Deportivo Táchira,Palmeiras,1,2
+2005,Group D,12/05/2005,Santo André,Deportivo Táchira,6,0
+2005,Group D,12/05/2005,Palmeiras,Cerro Porteño,0,0
+2005,Group E,15/02/2005,Nacional,Junior,0,1
+2005,Group E,16/02/2005,Olmedo,River Plate,2,3
+2005,Group E,23/02/2005,River Plate,Nacional,1,0
+2005,Group E,02/03/2005,Junior,Olmedo,2,0
+2005,Group E,16/03/2005,Nacional,Olmedo,1,2
+2005,Group E,17/03/2005,Junior,River Plate,0,2
+2005,Group E,07/04/2005,River Plate,Junior,2,1
+2005,Group E,07/04/2005,Olmedo,Nacional,2,3
+2005,Group E,19/04/2005,Olmedo,Junior,3,1
+2005,Group E,21/04/2005,Nacional,River Plate,1,3
+2005,Group E,03/05/2005,River Plate,Olmedo,1,1
+2005,Group E,03/05/2005,Junior,Nacional,3,2
+2005,Group F,15/02/2005,Alianza Lima,Tigres UANL,0,0
+2005,Group F,17/02/2005,Caracas,Banfield,1,1
+2005,Group F,23/02/2005,Banfield,Alianza Lima,3,2
+2005,Group F,23/02/2005,Tigres UANL,Caracas,3,1
+2005,Group F,15/03/2005,Alianza Lima,Caracas,2,1
+2005,Group F,15/03/2005,Tigres UANL,Banfield,2,2
+2005,Group F,05/04/2005,Caracas,Alianza Lima,2,0
+2005,Group F,06/04/2005,Banfield,Tigres UANL,0,3
+2005,Group F,12/04/2005,Alianza Lima,Banfield,0,1
+2005,Group F,13/04/2005,Caracas,Tigres UANL,2,5
+2005,Group F,03/05/2005,Banfield,Caracas,3,1
+2005,Group F,03/05/2005,Tigres UANL,Alianza Lima,0,0
+2005,Group G,16/02/2005,Cobreloa,Chivas de Guadalajara,1,3
+2005,Group G,24/02/2005,Once Caldas,San Lorenzo,0,0
+2005,Group G,02/03/2005,Chivas de Guadalajara,Once Caldas,0,0
+2005,Group G,09/03/2005,San Lorenzo,Cobreloa,0,0
+2005,Group G,22/03/2005,Cobreloa,Once Caldas,2,1
+2005,Group G,23/03/2005,Chivas de Guadalajara,San Lorenzo,2,1
+2005,Group G,05/04/2005,San Lorenzo,Chivas de Guadalajara,0,0
+2005,Group G,05/04/2005,Once Caldas,Cobreloa,0,0
+2005,Group G,12/04/2005,Once Caldas,Chivas de Guadalajara,4,2
+2005,Group G,26/04/2005,Cobreloa,San Lorenzo,2,0
+2005,Group G,05/05/2005,Chivas de Guadalajara,Cobreloa,3,1
+2005,Group G,05/05/2005,San Lorenzo,Once Caldas,0,1
+2005,Group H,16/02/2005,Sporting Cristal,Pachuca,2,0
+2005,Group H,17/02/2005,Deportivo Cuenca,Boca Juniors,0,0
+2005,Group H,24/02/2005,Pachuca,Deportivo Cuenca,2,1
+2005,Group H,02/03/2005,Boca Juniors,Sporting Cristal,3,0
+2005,Group H,08/03/2005,Sporting Cristal,Deportivo Cuenca,1,0
+2005,Group H,16/03/2005,Pachuca,Boca Juniors,3,1
+2005,Group H,06/04/2005,Boca Juniors,Pachuca,4,0
+2005,Group H,14/04/2005,Deportivo Cuenca,Sporting Cristal,2,2
+2005,Group H,27/04/2005,Sporting Cristal,Boca Juniors,0,3
+2005,Group H,27/04/2005,Deportivo Cuenca,Pachuca,1,1
+2005,Group H,04/05/2005,Boca Juniors,Deportivo Cuenca,3,0
+2005,Group H,04/05/2005,Pachuca,Sporting Cristal,2,0
+2005,Round of 16 (Ida),17/05/2005,LDU de Quito,River Plate,2,1
+2005,Round of 16 (Ida),17/05/2005,Junior,Boca Juniors,3,3
+2005,Round of 16 (Ida),18/05/2005,Pachuca,Chivas de Guadalajara,1,1
+2005,Round of 16 (Ida),18/05/2005,Palmeiras,São Paulo,0,1
+2005,Round of 16 (Ida),18/05/2005,Banfield,Independiente Medellín,3,0
+2005,Round of 16 (Ida),19/05/2005,Atlético Paranaense,Cerro Porteño,2,1
+2005,Round of 16 (Ida),19/05/2005,Once Caldas,Tigres UANL,1,1
+2005,Round of 16 (Ida),20/05/2005,Universidad de Chile,Santos FC,2,1
+2005,Round of 16 (Vuelta),24/05/2005,Independiente Medellín,Banfield,0,2
+2005,Round of 16 (Vuelta),24/05/2005,Chivas de Guadalajara,Pachuca,3,1
+2005,Round of 16 (Vuelta),25/05/2005,São Paulo,Palmeiras,2,0
+2005,Round of 16 (Vuelta),26/05/2005,River Plate,LDU de Quito,4,2
+2005,Round of 16 (Vuelta),26/05/2005,Tigres UANL,Once Caldas,2,1
+2005,Round of 16 (Vuelta),26/05/2005,Cerro Porteño,Atlético Paranaense,2,1
+2005,Round of 16 (Vuelta),26/05/2005,Santos FC,Universidad de Chile,3,0
+2005,Round of 16 (Vuelta),26/05/2005,Boca Juniors,Junior,4,0
+2005,Quarter-finals (Ida),01/06/2005,Atlético Paranaense,Santos FC,3,2
+2005,Quarter-finals (Ida),01/06/2005,São Paulo,Tigres UANL,4,0
+2005,Quarter-finals (Ida),02/06/2005,Chivas de Guadalajara,Boca Juniors,4,0
+2005,Quarter-finals (Ida),02/06/2005,Banfield,River Plate,1,1
+2005,Quarter-finals (Vuelta),14/06/2005,Boca Juniors,Chivas de Guadalajara,0,0
+2005,Quarter-finals (Vuelta),15/06/2005,Tigres UANL,São Paulo,2,1
+2005,Quarter-finals (Vuelta),15/06/2005,Santos FC,Atlético Paranaense,0,2
+2005,Quarter-finals (Vuelta),16/06/2005,River Plate,Banfield,3,2
+2005,Semi-finals (Ida),22/06/2005,São Paulo,River Plate,2,0
+2005,Semi-finals (Ida),23/06/2005,Atlético Paranaense,Chivas de Guadalajara,3,0
+2005,Semi-finals (Vuelta),30/06/2005,Chivas de Guadalajara,Atlético Paranaense,2,2
+2005,Semi-finals (Vuelta),30/06/2005,River Plate,São Paulo,2,3
+2005,Final (Ida),06/07/2005,Atlético Paranaense,São Paulo,1,1
+2005,Final (Vuelta),14/07/2005,São Paulo,Atlético Paranaense,4,0
+2006,Group A,08/02/2006,Cienciano,Chivas de Guadalajara,0,1
+2006,Group A,01/03/2006,Caracas,São Paulo,1,2
+2006,Group A,07/03/2006,Chivas de Guadalajara,Caracas,1,1
+2006,Group A,08/03/2006,São Paulo,Cienciano,4,1
+2006,Group A,14/03/2006,Cienciano,Caracas,2,1
+2006,Group A,21/03/2006,Chivas de Guadalajara,São Paulo,2,1
+2006,Group A,28/03/2006,Caracas,Cienciano,4,0
+2006,Group A,05/04/2006,São Paulo,Chivas de Guadalajara,1,2
+2006,Group A,12/04/2006,Caracas,Chivas de Guadalajara,0,0
+2006,Group A,12/04/2006,Cienciano,São Paulo,0,2
+2006,Group A,20/04/2006,Chivas de Guadalajara,Cienciano,0,0

@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+from matplotlib.widgets import Button
 
 
 
@@ -133,15 +134,15 @@ def plot_boxplots_chunked(equipos_lista, filtros):
         return
 
     chunk_size = max(1, int(filtros.get("chunk_size", 10)))
+    chunks = [equipos_filtrados[i:i+chunk_size] for i in range(0, n_equipos, chunk_size)]
+    current_chunk = [0]
 
-    for start in range(0, n_equipos, chunk_size):
-        end = min(start + chunk_size, n_equipos)
-        equipos_chunk = equipos_filtrados[start:end]
+    def draw_chunk(chunk_idx):
+        ax.clear()
+        equipos_chunk = chunks[chunk_idx]
         indices = np.arange(len(equipos_chunk))
-        fig, ax = plt.subplots(figsize=(max(10, len(equipos_chunk) * 0.9), 6))
         ancho = 0.15
 
-        
         for j, met in enumerate(metricas_nombres):
             series_chunk = [datos_por_metrica[met][equipos.get_loc(e)] for e in equipos_chunk]
             posiciones = indices + (j - 1.5) * ancho
@@ -149,7 +150,8 @@ def plot_boxplots_chunked(equipos_lista, filtros):
                             positions=posiciones,
                             widths=ancho * 0.9,
                             patch_artist=True,
-                            showfliers=False)
+                            showfliers=False,
+                            tick_labels=None) # tick_labels not needed here as we set xticklabels manually later
             for elemento in bp['boxes']:
                 elemento.set(facecolor=colores[j], alpha=0.6)
             for elemento in bp['whiskers'] + bp['medians'] + bp['caps']:
@@ -157,12 +159,36 @@ def plot_boxplots_chunked(equipos_lista, filtros):
 
         ax.set_xticks(indices)
         ax.set_xticklabels(equipos_chunk, rotation=90, fontsize=8)
-        ax.set_title(f'Distribución de goles (equipos {start+1}-{end} de {n_equipos})')
+        start = chunk_idx * chunk_size + 1
+        end = min((chunk_idx + 1) * chunk_size, n_equipos)
+        ax.set_title(f'Distribución de goles (equipos {start}-{end} de {n_equipos})')
         ax.set_ylabel('Goles')
         parches = [mpatches.Patch(color=colores[i], label=metricas_nombres[i]) for i in range(len(metricas_nombres))]
         ax.legend(handles=parches, loc='upper right', fontsize=8)
-        plt.tight_layout()
-        plt.show()
+        fig.canvas.draw_idle()
+
+    def on_next(event):
+        if current_chunk[0] < len(chunks) - 1:
+            current_chunk[0] += 1
+            draw_chunk(current_chunk[0])
+
+    def on_prev(event):
+        if current_chunk[0] > 0:
+            current_chunk[0] -= 1
+            draw_chunk(current_chunk[0])
+
+    fig, ax = plt.subplots(figsize=(max(10, chunk_size * 0.9), 6))
+    plt.subplots_adjust(bottom=0.2)
+
+    ax_prev = plt.axes([0.2, 0.05, 0.1, 0.075])
+    ax_next = plt.axes([0.7, 0.05, 0.1, 0.075])
+    btn_prev = Button(ax_prev, 'Anterior')
+    btn_next = Button(ax_next, 'Siguiente')
+    btn_prev.on_clicked(on_prev)
+    btn_next.on_clicked(on_next)
+
+    draw_chunk(0)
+    plt.show()
 
 def plot_forces_chunked(df_fuerzas, equipos_lista, filtros):
     equipos_filtrados = obtener_lista_equipos(equipos_lista, filtros, df_fuerzas)
@@ -173,13 +199,13 @@ def plot_forces_chunked(df_fuerzas, equipos_lista, filtros):
 
     chunk_size = max(1, int(filtros.get("chunk_size", 10)))
     cols_fuerzas = ['fuerza_ataque_local', 'fuerza_ataque_visita', 'fuerza_defensa_local', 'fuerza_defensa_visita']
+    chunks = [equipos_filtrados[i:i+chunk_size] for i in range(0, n_equipos, chunk_size)]
+    current_chunk = [0]
 
-    for start in range(0, n_equipos, chunk_size):
-        end = min(start + chunk_size, n_equipos)
-        equipos_chunk = equipos_filtrados[start:end]
+    def draw_chunk(chunk_idx):
+        ax.clear()
+        equipos_chunk = chunks[chunk_idx]
         indices = np.arange(len(equipos_chunk))
-
-        fig, ax = plt.subplots(figsize=(max(10, len(equipos_chunk) * 0.9), 6))
         bar_width = 0.18
 
         for i, col in enumerate(cols_fuerzas):
@@ -189,11 +215,35 @@ def plot_forces_chunked(df_fuerzas, equipos_lista, filtros):
 
         ax.set_xticks(indices)
         ax.set_xticklabels(equipos_chunk, rotation=90, fontsize=8)
-        ax.set_title(f'Fuerzas por equipo (equipos {start+1}-{end} de {n_equipos})')
+        start = chunk_idx * chunk_size + 1
+        end = min((chunk_idx + 1) * chunk_size, n_equipos)
+        ax.set_title(f'Fuerzas por equipo (equipos {start}-{end} de {n_equipos})')
         ax.set_ylabel('Multiplicador de fuerza (relativo)')
         ax.legend(loc='upper right', fontsize=8)
-        plt.tight_layout()
-        plt.show()
+        fig.canvas.draw_idle()
+
+    def on_next(event):
+        if current_chunk[0] < len(chunks) - 1:
+            current_chunk[0] += 1
+            draw_chunk(current_chunk[0])
+
+    def on_prev(event):
+        if current_chunk[0] > 0:
+            current_chunk[0] -= 1
+            draw_chunk(current_chunk[0])
+
+    fig, ax = plt.subplots(figsize=(max(10, chunk_size * 0.9), 6))
+    plt.subplots_adjust(bottom=0.2)
+
+    ax_prev = plt.axes([0.2, 0.05, 0.1, 0.075])
+    ax_next = plt.axes([0.7, 0.05, 0.1, 0.075])
+    btn_prev = Button(ax_prev, 'Anterior')
+    btn_next = Button(ax_next, 'Siguiente')
+    btn_prev.on_clicked(on_prev)
+    btn_next.on_clicked(on_next)
+
+    draw_chunk(0)
+    plt.show()
 
 
 
@@ -209,9 +259,24 @@ goles_recibidos = pd.concat([
     df_partidos['Home Score'].dropna()
 ])
 
+# NUEVA GRÁFICA: Probabilidades de victoria por equipo
+# Calcular victorias como local
+home_victorias = (df_partidos['Home Score'] > df_partidos['Away Score']).astype(int)
+home_partidos = df_partidos.groupby('Home Club').size()
+home_prob_victoria = df_partidos.groupby('Home Club')[['Home Score', 'Away Score']].apply(lambda x: (x['Home Score'] > x['Away Score']).sum() / len(x)).reindex(equipos)
+
+# Calcular victorias como visitante
+away_victorias = (df_partidos['Away Score'] > df_partidos['Home Score']).astype(int)
+away_partidos = df_partidos.groupby('Away Club').size()
+away_prob_victoria = df_partidos.groupby('Away Club')[['Home Score', 'Away Score']].apply(lambda x: (x['Away Score'] > x['Home Score']).sum() / len(x)).reindex(equipos)
+
+# Preparar datos para boxplot (eliminar NaN)
+prob_local = home_prob_victoria.dropna().values
+prob_visita = away_prob_victoria.dropna().values
+
 fig, ax = plt.subplots(figsize=(6, 6))
-bp = ax.boxplot([goles_anotados, goles_recibidos],
-                labels=['Goles anotados (global)', 'Goles recibidos (global)'],
+bp = ax.boxplot([prob_local, prob_visita],
+                tick_labels=['Prob. ganar (local)', 'Prob. ganar (visitante)'],
                 patch_artist=True,
                 showfliers=False)
 
@@ -219,8 +284,9 @@ colores_globales = ['#1f77b4', '#d62728']
 for patch, color in zip(bp['boxes'], colores_globales):
     patch.set(facecolor=color, alpha=0.6)
 
-ax.set_title('Distribución global de goles anotados vs recibidos')
-ax.set_ylabel('Goles')
+ax.set_title('Distribución de probabilidades de victoria por equipo')
+ax.set_ylabel('Probabilidad')
+ax.set_ylim([0, 1])
 plt.tight_layout()
 plt.show()
 
